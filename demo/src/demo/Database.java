@@ -3,12 +3,12 @@ package demo;
 import java.util.ArrayList;
 
 public class Database {
-//	private	 ArrayList<CD> listCD =new ArrayList<CD>();
+//	private	 ArrayList<CD> listCD =new ArrayList<CD>();//定义一个arrylist的容器
 //	private	 ArrayList<DVD> listDVD =new ArrayList<DVD>();
 	private	 ArrayList<Item> listItem =new ArrayList<Item>();
 //	public void  add(CD cd) {
 //		listCD.add(cd);
-//	}
+//	}//实现添加cd的信息
 //	public void  add(DVD dvd) {
 //		listDVD.add(dvd);
 //	}
@@ -19,7 +19,7 @@ public class Database {
 //		for(CD cd:listCD)
 //		{
 //			cd.print();
-//		}
+//		}//使用for-each 循环打印cd的信息
 //		for(DVD dvd:listDVD) 
 //		{
 //			dvd.print();
